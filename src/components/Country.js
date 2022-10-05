@@ -36,7 +36,7 @@ borders(countryDetail.borders) : 'No borders';
 
       <div className={changes === true ? 'navigate' : 'navigate2'}>
 
-        <Link to="/">
+        <Link to="/RestCountries">
         <div id="arrDiv">
         <i className="las la-arrow-left" id="arrow"><span className='arrowSpan'>Back</span></i>
         </div>
