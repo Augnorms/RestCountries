@@ -1,0 +1,438 @@
+@media screen and (min-width:0px){
+
+   *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+   }
+  
+  
+   .body2{
+      background-color: #fff;
+      color:#000;
+      font-family: 'Nunito Sans', sans-serif;
+   }
+  
+ 
+  /*header section styling*/
+  
+   .head2{
+     width:100%;
+     background-color:  #fff;
+     display: flex;
+     justify-content: space-between;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+   }
+ 
+  
+   .head2 .logo{
+     padding: 20px; 
+   }
+   .head2 .logo h2{
+     margin-left: 10px;
+   }
+  
+   .head2 .icon{
+     padding:20px;
+   }
+   .head2 .icon i{
+     margin-right: 10px;
+     cursor: pointer;
+     font-weight: bold;
+   }
+   
+   .head2 .icon span{
+     padding: 8px;
+     font-family: 'Nunito Sans', sans-serif;
+   }
+ 
+ 
+  
+  
+   /*Filter display section styling*/
+  
+   .filter2{
+     display: flex;
+     padding: 15px;
+     margin-top: 15px;
+     align-items: center;
+     justify-content: space-between;
+   }
+  
+   .filter2 .form-control{
+      padding: 10px;  
+      margin: 10px ;
+      border: 2px solid #fff; 
+      border-radius: 6px;
+      background-color: #fff;
+      box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+   }
+   .filter2 .form-control #search{
+     margin-left: 25px;
+     width:350px;
+     padding: 8px;
+     text-align: left;
+     background-color: #fff;
+     border: none;
+     color:#000;
+     outline: none;
+     
+   }
+   .filter2 .form-control .fa-search{
+     margin-left: 30px;
+   }
+   .filter2 .form-control #search::placeholder{
+     color:#000;
+     font-family: 'Nunito Sans', sans-serif;
+   }
+  
+  
+  .filter2 .select-control{
+     padding: 0px;   
+     margin: 10px ;
+     
+  }
+  .filter2 .select-control #select{
+     width:220px;
+     padding:20px;
+     background-color: #fff; 
+     border-radius: 4px;
+     color:#000;
+     border: none;
+     font-family: 'Nunito Sans', sans-serif;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+  
+ 
+  
+   /*countries display section styling*/
+  
+  .grid2{
+     width:100%;
+     padding: 25px;
+     margin-top: 10px;
+     display: grid;
+     grid-template-columns: repeat(4, 2fr);
+     gap:40px;
+     
+  }
+  
+  .grid2 article{
+    width: 100%;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+ 
+  .grid2 article .imagCont{
+    width: 100%;
+  }
+ 
+  .grid2 article .imagCont #infoImage{
+    width: 100%;
+  }
+  
+  .grid2 article .imagCont #infoImage img{
+     width: 100%;
+     border-radius: 5px 5px 0px 0px; 
+  }
+  
+  .grid2 article .imagCont #infoFirst{
+     width:100%;
+     padding:40px 20px 20px 20px;
+     margin-top: -10px;
+     border-radius:0 0 5px 5px;
+     
+  }
+  
+  .grid2 article .imagCont #infoFirst p{
+     font-size: 18px;
+     font-weight: bold;
+     padding: 6px;
+     margin-bottom: 15px;
+  }
+  .grid2 article .imagCont #infoFirst .labeldiv{
+    padding: 4px;
+  }
+  .grid2 article .imagCont #infoFirst .labeldiv label{
+     font-size: 15px;
+     font-weight: bold;
+  }
+  .grid2 article .imagCont #infoFirst span{
+     font-size: 14px;   
+  }
+
+
+
+ /*navigation section in the country.js*/
+
+ .navigate2{
+    width:100%;
+    padding: 40px;
+    cursor: pointer;  
+ }
+
+ .navigate2 #arrDiv{
+    width:120px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
+ .navigate2 #arrDiv #arrow{
+   color:#000;
+}
+
+ .navigate2 #arrDiv .arrowSpan{
+    margin-left: 15px;
+    color:#000;
+    font-weight: 100;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+
+
+ .countryInfo2{
+    width:100%;
+    padding: 20px;  
+ }
+ .countryInfo2 section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ .countryInfo2 section .flagDisplay{
+    padding: 20px;
+ }
+ .countryInfo2 section .flagDisplay img{
+    width: 100%;
+    height: 420px;
+    border-radius: 8px;
+ }
+ .countryInfo2 section .information{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+ .countryInfo2 section .information #head{
+    padding: 10px;
+    line-height: 60px;
+ }
+ .countryInfo2 section .information #head h3{
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ .countryInfo2 section .information #body{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ .countryInfo2 section .information #body #leftInfo{
+    padding: 10px;
+ 
+ }
+ .countryInfo2 section .information #body #leftInfo h5{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ .countryInfo2 section .information #body #leftInfo span{
+    font-weight: 100;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ 
+ 
+ .countryInfo2 section .information #body #rightInfo{
+    padding: 5px;
+   
+ }
+ .countryInfo2 section .information #body #rightInfo h5{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 17px;
+ }
+ .countryInfo2 section .information #body #rightInfo span{
+    font-weight: 100;
+    font-size: 16px;
+ }
+
+ .countryInfo2 section .information #body #rightInfo .lang{
+   margin-right: 5px;
+   font-family: 'Nunito Sans', sans-serif;
+}
+ 
+ 
+ .countryInfo2 section .information #foot{
+    width: 100%;
+    padding: 10px;
+    display:flex;
+ }
+ .countryInfo2 section .information #foot #title{
+    padding: 10px;
+    margin-left: 2px;
+ }
+ .countryInfo2 section .information #foot #title h5{
+    padding: 10px;
+    font-size: 17px;
+ }
+ .countryInfo2 section .information #foot #list{
+    padding: 10px;
+ }
+
+ .countryInfo2 section .information #foot #list{
+   padding: 10px;
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1.5rem;
+}
+.countryInfo2 section .information #foot #list .borders{
+   width: 100%;
+   padding: 8px;
+   margin: 10px;
+   box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+   border-radius: 5px;
+   background-color: #fff;
+   color:#000;
+   font-family: 'Nunito Sans', sans-serif;
+   text-align: center;
+}
+
+ 
+
+}/*end of main media screen*/
+
+
+
+
+@media screen and (max-width:768px){
+
+    .grid2{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+     }
+  
+     .grid2 article #infoImage img{
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+     }
+
+     .countryInfo2 section .flagDisplay img{
+        width: 100%;
+        height: 360px;
+        border-radius: 8px;
+     }
+  
+     .countryInfo2 section .information #body #leftInfo h5{
+        padding: 5px;
+        font-weight: 600;
+     }
+     .countryInfo2 section .information #body #leftInfo span{
+        font-weight: 100;
+     }
+  
+     .countryInfo2 section .information #body #rightInfo h5{
+        padding: 5px;
+        font-weight: 600;
+     }
+     .countryInfo2 section .information #body #rightInfo span{
+        font-weight: 100;
+     }
+  
+     .countryInfo2 section .information #foot{
+        width: 100%;
+        padding: 10px;
+        display:flex;
+        flex-wrap: wrap;
+     }
+ 
+
+}/*end of tablet display view*/
+
+
+
+
+@media screen and (max-width:576px){
+    .head2 .logo h2{
+        font-size: 12px;
+        padding-top:4px;
+     }
+     .head2.icon i{
+        margin:0px;
+     }
+     .head2 .icon span{
+        font-size: 13px;
+     }
+  
+     .filter2{
+        display: flex;
+        flex-wrap: wrap;
+     }
+  
+     .filter2 .form-control{
+        padding: 6px;   
+       
+     }
+     .filter2 .form-control #search{
+       margin-left: 4px;
+       width:220px;
+       padding: 8px;
+       text-align: center;
+     }
+    
+    
+     .filter2 .select-control{
+       padding: 10px;   
+    }
+    .filter2 .select-control #select{
+       margin-right:0px;
+       width:180px;
+       padding:16px;
+    }
+  
+     .grid2{
+        display:grid;
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+     }
+  
+     .grid2 article #infoImag img{
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+     }
+
+
+    /*country details*/
+
+
+    .countryInfo2 section{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .countryInfo2 section .flagDisplay{
+      width: 100%;
+   }
+
+   .countryInfo2 section .flagDisplay img{
+      width: 100%;
+   }
+
+   .countryInfo2 section .information #body{
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+
+   .countryInfo section .information #foot{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+   .countryInfo2 section .information #foot #list{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+   }
+}
