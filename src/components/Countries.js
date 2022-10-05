@@ -87,7 +87,7 @@ function Countries(props) {
                     
                        <div id="infoImage">   
 
-                         <Link to={`/RestCountries/countries${name}`}>
+                         <Link to={`/RestCountries/countries/${name}`}>
                            <img  src={flag} alt={name} />
                          </Link> 
 
